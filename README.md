@@ -28,3 +28,8 @@ ip nm gw
 ACK - OK
 ```
 
+In a batchfile you can use plink (putty cli) to send settings
+```
+echo 192.168.88.53 255.255.255.0 192.168.88.1 | plink -raw -P 1234 localhost
+```
+
