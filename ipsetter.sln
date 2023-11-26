@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ipsetter", "ipsetter.csproj", "{278AF391-4A94-41E4-B844-175604DE98B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ipsetter", "ipsetter\ipsetter.csproj", "{CAF67AC0-6887-4187-8A4A-D9A2F26BEF23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ipsetterapi", "ipsetterapi\ipsetterapi.csproj", "{8C122FE1-0983-484F-855B-D0756FAD8ECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{278AF391-4A94-41E4-B844-175604DE98B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{278AF391-4A94-41E4-B844-175604DE98B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{278AF391-4A94-41E4-B844-175604DE98B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{278AF391-4A94-41E4-B844-175604DE98B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF67AC0-6887-4187-8A4A-D9A2F26BEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF67AC0-6887-4187-8A4A-D9A2F26BEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF67AC0-6887-4187-8A4A-D9A2F26BEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF67AC0-6887-4187-8A4A-D9A2F26BEF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C122FE1-0983-484F-855B-D0756FAD8ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C122FE1-0983-484F-855B-D0756FAD8ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C122FE1-0983-484F-855B-D0756FAD8ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C122FE1-0983-484F-855B-D0756FAD8ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

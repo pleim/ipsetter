@@ -1,0 +1,7 @@
+@ipsetterapi_HostAddress = http://localhost:5194
+
+
+GET {{ipsetterapi_HostAddress}}/test/2
+Accept: application/json
+
+###
